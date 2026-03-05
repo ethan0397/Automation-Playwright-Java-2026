@@ -1,0 +1,14 @@
+com\company\automation\tests\BaseTest.class
+com\company\automation\core\TestLifecycle.class
+com\company\automation\config\Config.class
+com\company\automation\core\PlaywrightManager.class
+com\company\automation\core\BrowserFactory.class
+com\company\automation\pages\LoginPage.class
+com\company\automation\config\Environment.class
+com\company\automation\tests\contact\ContactTest.class
+com\company\automation\services\AuthService.class
+com\company\automation\tests\login\LoginTest.class
+com\company\automation\pages\ContactPage.class
+com\company\automation\pages\BasePage.class
+com\company\automation\pages\HomePage.class
+com\company\automation\utils\ScreenshotUtil.class
