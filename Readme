@@ -1,0 +1,46 @@
+# 🚀 Automation Playwright Java 2026
+
+## 📌 Overview
+This repository contains an end-to-end **Test Automation Framework** built with **Playwright + Java**, designed for scalable, maintainable, and high-performance UI testing.
+
+The framework follows modern automation best practices such as **Page Object Model (POM)**, **parallel execution**, and **CI/CD integration**, helping QA engineers build reliable and fast test suites.
+
+---
+
+## 🧰 Tech Stack
+- **Language:** Java  
+- **Automation Tool:** Playwright  
+- **Build Tool:** Maven  
+- **Test Framework:** TestNG / JUnit *(update if needed)*  
+- **Reporting:** Allure / Extent Reports *(update if you use)*  
+- **CI/CD:** GitHub Actions  
+
+---
+
+## ✨ Features
+- ✅ Cross-browser testing (Chromium, Firefox, WebKit)  
+- ✅ Page Object Model (POM) structure  
+- ✅ Parallel test execution  
+- ✅ Screenshot & video recording on failure  
+- ✅ Auto-wait mechanism (no hard waits)  
+- ✅ Config-driven environment setup  
+- ✅ CI/CD integration ready  
+
+---
+
+## 📁 Project Structure
+```bash
+Automation-Playwright-Java-2026/
+│── src/
+│   ├── main/java/
+│   │   ├── pages/          # Page Objects
+│   │   ├── utils/          # Utilities & helpers
+│   │   └── config/         # Configuration
+│   │
+│   ├── test/java/
+│   │   ├── tests/          # Test cases
+│   │   └── base/           # Base test setup
+│
+│── .github/workflows/      # CI/CD pipeline
+│── pom.xml                 # Dependencies
+│── README.md
